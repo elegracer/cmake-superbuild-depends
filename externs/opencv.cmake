@@ -1,5 +1,5 @@
 if(NOT TARGET depends::opencv)
-  find_package(OpenCV REQUIRED)
-  add_library(depends::opencv INTERFACE IMPORTED GLOBAL)
-  target_link_libraries(depends::opencv INTERFACE ${OpenCV_LIBS})
+    find_package(OpenCV REQUIRED)
+    add_library(depends::opencv INTERFACE IMPORTED GLOBAL)
+    target_link_libraries(depends::opencv INTERFACE ${OpenCV_LIBS})
 endif()
