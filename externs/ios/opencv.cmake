@@ -1,8 +1,8 @@
 if(NOT TARGET depends::opencv)
     FetchContent_Declare(
         depends-opencv
-        URL     https://github.com/opencv/opencv/releases/download/4.1.0/opencv-4.1.0-ios-framework.zip
-        URL_MD5 062834e8df08e0c3e905a6e98b616ed9
+        URL     https://github.com/opencv/opencv/releases/download/4.1.1/opencv-4.1.1-ios-framework.zip
+        URL_MD5 b6b2d42a52741ec271eb60edabc21731
     )
     FetchContent_GetProperties(depends-opencv)
     if(NOT depends-opencv_POPULATED)

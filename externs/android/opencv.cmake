@@ -1,8 +1,8 @@
 if(NOT TARGET depends::opencv)
     FetchContent_Declare(
         depends-opencv
-        URL     https://github.com/opencv/opencv/releases/download/4.1.0/opencv-4.1.0-android-sdk.zip
-        URL_MD5 c6e2e9ad8efe834dede34a89c63c3815
+        URL     https://github.com/opencv/opencv/releases/download/4.1.1/opencv-4.1.1-android-sdk.zip
+        URL_MD5 775f0d80a9541ec1df74e4bd4722bed0
     )
     FetchContent_GetProperties(depends-opencv)
     if(NOT depends-opencv_POPULATED)
