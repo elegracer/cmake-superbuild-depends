@@ -3,6 +3,7 @@ if(NOT TARGET depends::nanogui)
         depends-nanogui
         GIT_REPOSITORY https://github.com/elegracer/nanogui.git
         GIT_TAG        master
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-nanogui)
     if(NOT depends-nanogui_POPULATED)

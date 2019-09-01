@@ -6,6 +6,7 @@ if(NOT TARGET depends::popl)
         depends-popl
         GIT_REPOSITORY https://github.com/badaix/popl.git
         GIT_TAG        v1.2.0
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-popl)
     if(NOT depends-popl_POPULATED)

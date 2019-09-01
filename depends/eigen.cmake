@@ -6,6 +6,7 @@ if(NOT TARGET depends::eigen)
         depends-eigen
         GIT_REPOSITORY https://github.com/eigenteam/eigen-git-mirror.git
         GIT_TAG        3.3.7
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-eigen)
     if(NOT depends-eigen_POPULATED)

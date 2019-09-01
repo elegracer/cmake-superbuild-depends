@@ -3,6 +3,7 @@ if(NOT TARGET depends::nuklear)
         depends-nuklear
         GIT_REPOSITORY https://github.com/vurtun/nuklear.git
         GIT_TAG        509c75b
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-nuklear)
     if(NOT depends-nuklear_POPULATED)

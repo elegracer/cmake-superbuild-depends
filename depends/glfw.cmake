@@ -3,6 +3,7 @@ if(NOT TARGET depends::glfw)
         depends-glfw
         GIT_REPOSITORY https://github.com/glfw/glfw.git
         GIT_TAG        3.3
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-glfw)
     if(NOT depends-glfw_POPULATED)

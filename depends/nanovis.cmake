@@ -3,6 +3,7 @@ if(NOT TARGET depends::nanovis)
         depends-nanovis
         GIT_REPOSITORY https://github.com/elegracer/nanovis.git
         GIT_TAG        master
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-nanovis)
     if(NOT depends-nanovis_POPULATED)

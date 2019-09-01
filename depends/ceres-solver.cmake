@@ -6,6 +6,7 @@ if(NOT TARGET depends::ceres-solver)
         depends-ceres-solver
         GIT_REPOSITORY https://github.com/elegracer/ceres-solver.git
         GIT_TAG        master
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-ceres-solver)
     if(NOT depends-ceres-solver_POPULATED)

@@ -6,6 +6,7 @@ if(NOT TARGET depends::glbinding)
         depends-glbinding
         GIT_REPOSITORY https://github.com/cginternals/glbinding.git
         GIT_TAG        v3.1.0
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-glbinding)
     if(NOT depends-glbinding_POPULATED)

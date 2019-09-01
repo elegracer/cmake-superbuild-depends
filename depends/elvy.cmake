@@ -3,6 +3,7 @@ if(NOT TARGET depends::elvy)
         depends-elvy
         GIT_REPOSITORY https://github.com/elegracer/elvy.git
         GIT_TAG        master
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-elvy)
     if(NOT depends-elvy_POPULATED)

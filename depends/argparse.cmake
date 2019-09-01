@@ -6,6 +6,7 @@ if(NOT TARGET depends::argparse)
         depends-argparse
         GIT_REPOSITORY https://github.com/p-ranav/argparse.git
         GIT_TAG        v1.9
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-argparse)
     if(NOT depends-argparse_POPULATED)

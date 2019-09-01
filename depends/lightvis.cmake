@@ -3,6 +3,7 @@ if(NOT TARGET depends::lightvis)
         depends-lightvis
         GIT_REPOSITORY https://github.com/elegracer/lightvis.git
         GIT_TAG        master
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-lightvis)
     if(NOT depends-lightvis_POPULATED)

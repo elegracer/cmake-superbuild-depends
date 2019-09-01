@@ -6,6 +6,7 @@ if(NOT TARGET depends::spdlog)
         depends-spdlog
         GIT_REPOSITORY https://github.com/gabime/spdlog.git
         GIT_TAG        v1.3.1
+        GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-spdlog)
     if(NOT depends-spdlog_POPULATED)
