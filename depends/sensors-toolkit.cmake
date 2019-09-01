@@ -1,7 +1,7 @@
 if(NOT TARGET depends::sensors-toolkit)
     FetchContent_Declare(
         depends-sensors-toolkit
-        GIT_REPOSITORY https://github.com/itsuhane/sensors-toolkit.git
+        GIT_REPOSITORY https://github.com/elegracer/sensors-toolkit.git
         GIT_TAG        master
     )
     FetchContent_GetProperties(depends-sensors-toolkit)

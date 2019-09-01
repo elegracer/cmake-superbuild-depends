@@ -1,7 +1,7 @@
 if(NOT TARGET depends::lightvis)
     FetchContent_Declare(
         depends-lightvis
-        GIT_REPOSITORY https://github.com/itsuhane/lightvis.git
+        GIT_REPOSITORY https://github.com/elegracer/lightvis.git
         GIT_TAG        master
     )
     FetchContent_GetProperties(depends-lightvis)
