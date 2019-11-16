@@ -5,7 +5,7 @@ if(NOT TARGET depends::yaml-cpp)
     FetchContent_Declare(
         depends-yaml-cpp
         GIT_REPOSITORY https://github.com/jbeder/yaml-cpp.git
-        GIT_TAG        yaml-cpp-0.6.2
+        GIT_TAG        yaml-cpp-0.6.3
         GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-yaml-cpp)
