@@ -2,7 +2,7 @@ if(NOT TARGET depends::nanovis)
     FetchContent_Declare(
         depends-nanovis
         GIT_REPOSITORY https://github.com/elegracer/nanovis.git
-        GIT_TAG        master
+        GIT_TAG        lvo
         GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-nanovis)

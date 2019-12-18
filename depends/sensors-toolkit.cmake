@@ -2,7 +2,7 @@ if(NOT TARGET depends::sensors-toolkit)
     FetchContent_Declare(
         depends-sensors-toolkit
         GIT_REPOSITORY https://github.com/elegracer/sensors-toolkit.git
-        GIT_TAG        master
+        GIT_TAG        lvo
         GIT_SHALLOW    TRUE
     )
     FetchContent_GetProperties(depends-sensors-toolkit)
